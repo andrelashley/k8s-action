@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
   - image: andrelashley/kubia
-  name: kubia
-  ports:
-  - containerPort: 8000
-    protocol: TCP
+    name: kubia
+    ports:
+    - containerPort: 8000
+      protocol: TCP
